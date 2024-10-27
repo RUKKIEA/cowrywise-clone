@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>cowrywise website</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- bootstrap cdn -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <!-- font awesome cdn -->
+  <script src="https://kit.fontawesome.com/73888da70e.js" crossorigin="anonymous"></script>
+
+  <!-- google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@100;500;600;800&family=Poppins:wght@500;600&family=Roboto:wght@100;300;400;700;900&family=Rubik:wght@300;400;500;700;900&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+  <!-- nav bar -->
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container mx-5">
+      <a class="navbar-brand pe-2" href="#">
+        <img src="logo.png" alt="" width="150" height="30" class="d-inline-block align-text-top">
+
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <span class="drop-span"> Personal </span>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#"><i class="fa-solid fa-layer-group nav-i"></i><span
+                    class="drop-span">Plan</span></a>
+                <p class="nice">Access financial tools and guides</p>
+              </li>
+              <li><a class="dropdown-item" href="#"><i class="fa-solid fa-vault nav-i"></i><span class="drop-span">
+                    Save</span></a>
+                <p class="nice">Earn better interest than your bank</p>
+              </li>
+              <li><a class="dropdown-item" href="#"><i class="fa-solid fa-bucket nav-i"></i><span
+                    class="drop-span">Invest</span></a>
+                <p class="nice">build a global portfolio in one app</p>
+              </li>
+              <li><a class="dropdown-item" href="#"><i class="fa-solid fa-box-open nav-i"></i><span class="drop-span">Get
+                    Stash</span></a>
+                <p class="nice">A digital wallet for everything</p>
+              </li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#"><span class="drop-span">Growth Tools</span></a>
+                <p> Estimate your interest</p>
+                <p>Know your risk appetite</p>
+              </li>
+            </ul>
+
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <span class="drop-span">Business</span>
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="#"><i class="fa-solid fa-seedling nav-i"></i><span
+                    class="drop-span">Sprout</span> </a>
+                <p class="nice"> put your Business idle cash to work</p>
+              </li>
+
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <span class="drop-span"> Developer</span>
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="#"><i class="fa-solid fa-file-code nav-i"></i><span
+                    class="drop-span">Embed</span></a>
+                <p>Offer investment services in your app </p>
+              </li>
+              <li><a class="dropdown-item" href="#"><i class="fa-solid fa-book nav-i"></i><span
+                    class="drop-span">DOCS</span></a>
+                <p> Read how to integrate the Embed API</p>
+              </li>
+              <li>
+                <hr class="dropdown-divider">
+
+              </li>
+              <li><a class="dropdown-item" href="#"><span class="drop-span">Connect</span></a>
+                <p> Join Embed on Slack</p>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link a-nav-link" href="#">Learn</a>
+          </li>
+        </ul>
+        <ul class="nav justify-content-end">
+
+          <li class="nav-item">
+            <a class="nav-link a-nav-link" href="#">Log In</a>
+          </li>
+        </ul>
+
+        <form class="d-flex" role="search">
+          <button class="btn btn-primary" type="submit"> <span class="drop-span">Sign up for free </span></button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- main section 1 -->
+  <div class="testimonial-section">
+    <div class="container-fluid">
+      <div class="row ">
+        <!-- testimonial part -->
+        <div class="col-lg-5 test-card">
+          <div class="testimonial-img"><img src="wande.jpg" class=" mw-100" alt="...">
+          </div>
+          <div class="testimonial-backdrop">
+          </div>
+          <div class="testimonial">
+            <div class="testimonial-body">
+              <p class="testimonial-text">I love how Cowrywise has made me think of saving part of any income I get. I
+                immediately think of investing any money I get now.</p>
+              <p class="name">Olaitan O <a href="#" class="alias">@thevideopilot</a> </p>
+            </div>
+          </div>
+
+
+          <!-- <div class="img-cntl">
+          <img style="max-width: 50px;" src="mancowry.jpg" alt="">
+          <img style="max-width: 50px;" src="mancowry.jpg" alt="">
+          <img style="max-width: 50px;" src="mancowry.jpg" alt="">
+        </div> -->
+
+        </div>
+        <!-- text part -->
+        <div class="col-lg-6 ms-5">
+          <h1 class="testi-header">Put your <br> money to work.</h1>
+          <p class="testi-p">Build discipline, access financial tools that steadily grow your finances.</p>
+          <form class="row g-3">
+            <div class="col-auto input-group-lg">
+              <label for="inputemail2" class="visually-hidden">Email</label>
+              <input type="email" class="form-control " id="inputemail2" placeholder="Your email...">
+            </div>
+            <div class="col-auto">
+              <button type="submit" class="btn btn-lg btn-primary mb-3">Start Investing</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- second section starts -->
+  <div class="section2">
+    <div class="container-fluid">
+      <div class="row gx-4">
+        <div class="col-lg-6 px-5 ">
+          <h2 class="sec2-header2">
+            Get financial freedom
+          </h2>
+          <p class="sec2-p">Plan towards your dream home, fund your kid's education, travel the world, all in one app.
+          </p>
+        </div>
+        <div class="col-lg-6 px-5">
+          <div class="card sec2-card px-3" style="background-color: #fff6ee;">
+            <div class="card-body">
+              <p class="card-text sec2-card-p1">Circles</p>
+              <h5 class="card-title sec2-card-head">Save with friends</h5>
+              <p class="card-text sec2-card-p2">Stay motivated and have fun saving with friends and family</p>
+              <a href="#" class="sec2-card-a">JOIN A CIRCLE<span><i class="fa-solid fa-angle-right ps-2"></i></span></a>
+            </div>
+            <div class="card-img-container">
+              <img src="circles.svg" class="card-img-top" alt="...">
+              <div class="card-overlay-img">
+                <div class="sec2-img-overlay"><img class="sec2-2nd-img" src="app-screenshot-savings-in-nigeria.png"
+                    alt=""></div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-lg-6 px-5">
+          <div class="card sec2-card-up px-3" style="background-color: #f4f6ff;">
+            <div class="card-body">
+              <p class="card-text sec2-card-p1">Savings</p>
+              <h5 class="card-title sec2-card-head">Create Multiple saving plan</h5>
+              <p class="card-text sec2-card-p2">Earn better interest rate than your bank</p>
+              <a href="#" class="sec2-card-a">START SAVING<span><i class="fa-solid fa-angle-right ps-2"></i></span></a>
+            </div>
+            <div class="card-img-container">
+              <img class="card-img-top" src="savings.png" alt="...">
+              <div class="card-overlay-img">
+                <div class="sec2-img-overlay"><img class="sec2-2nd-img" src="app-screenshot-savings-in-nigeria.png"
+                    alt=""></div>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+        <div class="col-lg-6 px-5">
+          <div class="card sec2-card-down px-3" style="background-color: #fdf3f6;">
+            <div class="card-body">
+              <p class="card-text sec2-card-p1">Emergency Funds</p>
+              <h5 class="card-title sec2-card-head">Save for the rainy day</h5>
+              <p class="card-text sec2-card-p2">Build a safety net for unexpected expenses</p>
+              <a href="#" class="sec2-card-a">CREATE YOUR EMERGENGY PLAN<span><i
+                    class="fa-solid fa-angle-right ps-2"></i></span></a>
+            </div>
+            <div class="card-img-container">
+              <img src="emergency.svg" class="card-img-top" alt="...">
+              <div class="card-overlay-img">
+                <div class="sec2-img-overlay"><img class="sec2-2nd-img" src="app-screenshot-savings-in-nigeria.png"
+                    alt=""></div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-lg-6 px-5">
+          <div class="card sec2-card-up px-3" style="background-color: #e1f6ff;">
+            <div class="card-body">
+              <p class="card-text sec2-card-p1">Mutual Funds</p>
+              <h5 class="card-title sec2-card-head">Play the long-term game</h5>
+              <p class="card-text sec2-card-p2">Invest in diverse and quality mutual funds with any amount</p>
+              <a href="#" class="sec2-card-a">START INVESTING<span><i
+                    class="fa-solid fa-angle-right ps-2"></i></span></a>
+            </div>
+            <div class="card-img-container">
+              <img src="mutual-funds.svg" class="card-img-top" alt="...">
+              <div class="card-overlay-img">
+                <div class="sec2-img-overlay"><img class="sec2-2nd-img"
+                    src="app-screenshot-mutual-funds-app-nigeria.png" alt=""></div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-lg-6 px-5">
+          <div class="card sec2-card-down px-3" style="background-color: #f5f6fa;">
+            <div class="card-body">
+              <p class="card-text sec2-card-p1">US Stocks and bonds(Coming Soon)</p>
+              <h5 class="card-title sec2-card-head">Grow your global portfolio</h5>
+              <a href="#" class="sec2-card-a">GET EARLY ACCESS<span><i
+                    class="fa-solid fa-angle-right ps-2"></i></span></a>
+            </div>
+            <div class="card-img-container">
+              <img src="stocks.svg" class="card-img-top" alt="...">
+              <div class="card-overlay-img">
+                <div class="sec2-img-overlay"><img class="sec2-2nd-img"
+                    src="app-screenshot-investment-platform-nigeria.png" alt=""></div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-lg-6 px-5">
+          <div class="card sec2-card-up px-3" style="background-color:#0066f5; ">
+            <div class="card-body">
+              <p class="card-text sec2-stash-p1">Stash</p>
+              <h5 class="card-title sec2-stash-head">Your secure digital wallet</h5>
+              <p class="card-text sec2-stash-p2">Send and receive cash in seconds for free. You only need their username
+              </p>
+              <a href="#" class="sec2-stash-a">EXPLORE IT NOW<span><i
+                    class="fa-solid fa-angle-right ps-2"></i></span></a>
+            </div>
+            <div class="card-img-container">
+              <img src="stash.svg" class="card-img-top" alt="...">
+              <div class="card-overlay-img">
+                <div class="sec2-img-overlay"><img class="sec2-2nd-img"
+                    src="app-screenshot-investment-platform-nigeria.png" alt=""></div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <!-- third section begins -->
+  <div class="section3 p-5">
+    <div class="container m-5">
+      <div class="row ">
+        <!-- phone picture -->
+        <div class="col-lg-6">
+          <div class="phone-img">
+            <img src="app-screenshot-investment-platform-nigeria.png" class="mw-100 mh-100" alt="" height="800px"
+              width="80%">
+          </div>
+        </div>
+        <!-- text area -->
+        <div class="col-lg-6 px-5">
+          <h1 class="sec3-header mb-5">Start building wealth in 5 minutes</h1>
+          <div class="row">
+            <div class="col-lg-2">
+              <span class="numero"> 01</span>
+              <img class="numero" src="line.png" style="height: 100px; width:40px;" alt="">
+            </div>
+            <div class="col-lg-10 ">
+              <h5 class="sec3-word">Create an account</h5>
+              <p class="sec3-p">Sign up for an account with your name, email and phone number.</p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-2">
+              <span class="numero"> 02</span>
+              <img class="numero" src="line.png" style="height: 100px; width:40px;" alt="">
+            </div>
+            <div class="col-lg-10">
+              <h5 class="sec3-word">Add a payment method</h5>
+              <p class="sec3-p">Using your debit card, bank account, USSD, QR Code, setup your first plan.</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-2">
+              <span class="numero"> 03</span>
+
+            </div>
+            <div class="col-lg-10">
+              <h5 class="sec3-word">Watch your money grow</h5>
+              <p class="sec3-p">Sit back, relax & let your money work for you all day, everyday</p>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <button type="submit" class="btn btn-primary btn-lg mt-5">Sign Up Now</button>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- third section ends -->
+
+
+  <!-- fourth section begins -->
+  <div class="section4">
+    <div class="container">
+      <div class="row py-5">
+        <div class="col-lg-6 pt-4">
+          <h1 class="sec4-header pb-4">Keeping your money safe is our business.</h1>
+          <p class="sec4-main-p">Trust is our currency. We are committed to the security of your money and the
+            protection of your
+            account.</p>
+          <a href="#" class="sec2-stash-a">LEARN MORE<span><i class="fa-solid fa-angle-right ps-2"></i></span></a>
+        </div>
+      </div>
+      <!-- row 1 -->
+      <div class="row py-3">
+        <div class="col-lg-4">
+          <span class="icon"><i class="pe-2 me-4 mb-3 fa-solid fa-square"></i>Bank-grade Security</span>
+          <p class="ps-5 sec4-p">We are PCI-DSS compliant to ensure security of your data electronically. We also
+            provide you
+            with an option to set up 2FA for key transactions on your account. 2FA serves as an extra layer of
+            protection to ensure the security of your account beyond just a username and password. </p>
+        </div>
+        <div class="col-lg-4 ms-lg-5">
+          <span class="icon"><i class="pe-2 me-4 mb-3 fa-solid fa-square"></i> Assets Custody</span>
+          <p class="ps-5 sec4-p">Our users' financial assets are held with a licensed custodian, Zenith Nominees
+            Limited, for safekeeping to prevent misappropriation, misuse, theft, and/or loss, and in accordance with
+            applicable law.
+          </p>
+        </div>
+      </div>
+      <!-- row two -->
+      <div class="row py-3">
+        <div class="col-lg-4">
+          <span class="icon"><i class="pe-2 me-4 mb-3 fa-solid fa-square"></i>Regulatory Compliance</span>
+          <p class="ps-5 sec4-p">Cowrywise is a duly registered fund manager with the Securities and Exchange Commission
+            (SEC) of Nigeria. All our activities are in full compliance with regulatory requirements to the ultimate
+            protection of our
+            clients. </p>
+        </div>
+        <div class="col-lg-4 ms-lg-5">
+          <span class="icon"><i class="pe-2 me-4 mb-3 fa-solid fa-square"></i>Best-In-Class Assets</span>
+          <p class="ps-5 sec4-p"> All the investment options listed on Cowrywise, are carefully screened, managed by
+            professional fund managers. All the diverse mutual funds registered with the SEC, with standard third-party
+            custodian structure.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- fifth section begins -->
+
+  <div class="section5">
+    <div class="container-fluid">
+      <div class="row">
+
+        <div class="col-lg-12 m-lg-5">
+          <p class="sec5-par-main">WHY COWRYWISE ?</p>
+          <div class="content">
+            <div class="content__container">
+              <ul class="content__container__text">
+                <li>Got SEC licence?<span class="animate2">Yup!</span></li>
+                <li>Saving Charges?<span class="animate2">Nope.</span></li>
+                <li>Great Interest Rate?<span class="animate2">Confam.</span></li>
+                <li>Convinced?<span class="animate2">Sign up now.</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer section -->
+  <footer>
+    <div class="container">
+      <!-- download cards -->
+      <div class="row pt-5 gx-5">
+        <!-- first card -->
+        <div class="col-lg-6 ">
+          <div class="card px-3 pb-4">
+            <div class="card-body">
+              <h6 class="card-subtitle  me-4 text-muted"> <span class="rate-number">4.4</span> /5</h6>
+              <span class="rating"><i class="fa light fa-star"></i></span>
+              <span class="rating"><i class="fa light fa-star"></i></span>
+              <span class="rating"><i class="fa light fa-star"></i></span>
+              <span class="rating"><i class="fa light fa-star"></i></span>
+              <span class="rating"><i class="fa light fa-star-half-stroke"></i></span>
+              <!-- <a href="#" class="btn btn-primary">get it on playstore</a> -->
+              <img class="store " src="playstore.png" alt="">
+
+              <h5 class="card-title available">Available on the Play Store</h5>
+
+              <p class="card-text user-review">“User interface is fantastic, deposits and withdrawals flawless and fast.
+                I wish I
+                had discovered this years ago, would have been a millionaire by now” - Obiora, Nov 2021</p>
+
+              <a href="#" class="card-link download">DOWNLOAD NOW <span><i
+                    class="fa-solid fa-angle-right ps-2"></i></span></a>
+            </div>
+          </div>
+        </div>
+        <!-- second card -->
+        <div class="col-lg-6 mb-5">
+          <div class="card px-3 pb-4">
+            <div class="card-body">
+              <h6 class="card-subtitle  me-4 text-muted"> <span class="rate-number">4.5</span> /5</h6>
+              <span class="rating"><i class="fa light fa-star"></i></span>
+              <span class="rating"><i class="fa light fa-star"></i></span>
+              <span class="rating"><i class="fa light fa-star"></i></span>
+              <span class="rating"><i class="fa light fa-star"></i></span>
+              <span class="rating"><i class="fa light fa-star-half-stroke"></i></span>
+              <!-- <a href="#" class="btn btn-primary">get it on playstore</a> -->
+              <img class="store " src="appstore.png" alt="">
+
+              <h5 class="card-title available">Available on the App Store</h5>
+
+              <p class="card-text user-review">“I just don't know what to say about this app all i know is that it's
+                awesome, it's been 2 years plus and I haven't had a reason to complain.” - Henrietta, December 2021</p>
+
+              <a href="#" class="card-link download">DOWNLOAD NOW <span><i
+                    class="fa-solid fa-angle-right ps-2"></i></span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- blue footer part -->
+      <div class="row email-card justify-content-center align-items-center mx-2 my-5">
+        <div class="col-lg-5">
+          <h3 class="blue-footer-header">
+            Sign up for free. <br>Start investing today.
+          </h3>
+        </div>
+        <div class="col-lg-5 mt-5">
+          <form action="">
+            <div class="form-in input-group-lg">
+              <input type="email" class="form-control email-button" id="inputPassword2" placeholder="Your email...">
+            </div>
+            <button type="submit" class="btn btn-primary mb-3 button-pos">sign up for free</button>
+
+          </form>
+        </div>
+      </div>
+
+      <!-- footer menu -->
+      <div class="row my-5">
+        <!--1st footer-menu-header  -->
+        <div class="col-lg-3">
+          <h4 class="footer-menu-header ms-4 ps-2 mb-4">Company</h4>
+          <ul>
+            <li class="list"><a href="#">About Us</a></li>
+            <li class="list"><a href="#">Press</a></li>
+            <li class="list"><a href="#">Careers</a></li>
+            <li class="list"><a href="#">Ambassadors</a></li>
+            <li class="list"><a href="#">Privacy</a></li>
+            <li class="list"><a href="#">Terms</a></li>
+          </ul>
+        </div>
+        <!--2nd footer-menu-header  -->
+        <div class="col-lg-3">
+          <h4 class="footer-menu-header ms-4 ps-2 mb-4">Products</h4>
+          <ul>
+            <li class="list"><a href="#">Saving Plans</a></li>
+            <li class="list"><a href="#">Investment Plans</a></li>
+            <li class="list"><a href="#">Mutual Funds</a></li>
+            <li class="list"><a href="#">Stash</a></li>
+            <li class="list"><a href="#">Embed API</a></li>
+            <li class="list"><a href="#">Sprout</a></li>
+            <li class="list"><a href="#">Circles</a></li>
+            <li class="list"><a href="#">Halal</a></li>
+            <li class="list"><a href="#">Got a suggestion?</a></li>
+          </ul>
+        </div>
+        <!--3rd footer-menu-header  -->
+        <div class="col-lg-3">
+          <h4 class="footer-menu-header ms-4 ps-2 mb-4">Resources</h4>
+          <ul>
+            <li class="list"><a href="#">Customer Services</a></li>
+            <li class="list"><a href="#">Media</a></li>
+            <li class="list"><a href="#">FAQs</a></li>
+            <li class="list"><a href="#">Security</a></li>
+            <li class="list"><a href="#">Estimate your interest</a></li>
+            <li class="list"><a href="#">Plan Education</a></li>
+            <li class="list"><a href="#">Blog</a></li>
+            <li class="list"><a href="#">Help Center</a></li>
+          </ul>
+        </div>
+        <!--4th footer-menu-header  -->
+        <div class="col-lg-3">
+          <h4 class="footer-menu-header ms-4 ps-2 mb-4">Contacts</h4>
+          <ul>
+            <li class="list"><a href="#">Support@cowrywise.com</a></li>
+            <li class="list"><a href="#">WhatsApp</a></li>
+          </ul>
+        </div>
+      </div>
+      <hr>
+      <!--social media  -->
+      <div class="row">
+        <div class="col my-3">
+          <ul>
+            <li class="list">
+              <a class="socials" href=""><i class="fa-brands fa-twitter"></i></a>
+              <a class="socials" href=""><i class="fa-brands fa-facebook-f"></i></a>
+              <a class="socials" href=""><i class="fa-brands fa-square-whatsapp"></i></a>
+              <a class="socials" href=""><i class="fa-brands fa-telegram"></i></a>
+              <a class="socials" href=""><i class="fa-brands fa-instagram"></i></a>
+              <a class="socials" href=""><i class="fa-brands fa-youtube"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- story story -->
+      <div>
+        <div class="row justify-content-between my-3">
+          <div class="col-lg-6">
+            <p class="address">🇳🇬 5C Reverend Ogunbiyi Street, Ikeja GRA, Lagos Nigeria.</p>
+            <p class="address">🇺🇸2261 Market Street #4817 San Francisco, CA 94114</p>
+          </div>
+          <div class="col-lg-2 sec-part">
+            <img class="sec-img" src="sec.png" alt="">
+            <div class="sec-text">
+              <span class="sec">Licensed by the SEC</span>
+              <br>
+              <span class="story">Fund Manager</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <p class="story">Cowrywise Financial Technology Limited (“Cowrywise”) is a fund manager duly licensed by the
+        Securities and Exchange Commission (SEC) of Nigeria.</p>
+      <p class="story">Our mutual funds are managed by our fund management partners and made available to our clients
+        through our web and mobile applications. The fund manager for each mutual fund is disclosed on every mutual
+        fund's profile page. Any historical returns or expected returns are hypothetical in nature and may not reflect
+        actual future performance. <a href="#"> View full list of available mutual funds on Cowrywise.↗</a></p>
+      <p class="story">Stash account is a 10-digit virtual bank account number in line with the Nigeria Uniform Bank
+        Account Number (NUBAN) numbering system. The NUBAN accounts are generated with the names of selected banks
+        through our payment partners. In order for a user to be eligible for Stash account number, they must have
+        completed their KYC and added their Bank Verification Number (BVN). Stash is used for the purpose of receiving
+        money transfers in place of a regular debit card. It also receives the proceeds from the sale of any mutual fund
+        on Cowrywise.</p>
+      <p class="story">The content on this website does not constitute a complete description of Cowrywise’s offerings
+        and services. By using this website, you accept our <a href="">Terms of Use</a> and <a href="#">Privacy
+          Policy.</a> </p>
+      <p class="story"> &copy; 2022 Cowrywise Financial Technology. All rights reserved</p>
+
+    </div>
+  </footer>
+
+
+  <!-- button styling trial  -->
+
+  <!-- <button class="btn btn-lg btn-primary store-button">
+    <i class="fa-brands fa-google-play store-icon"></i>
+
+    <h6 class="store-text"> GET IT ON <br> <span class="store-but"> Play Store</span> </h6>
+  </button> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+    integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+    integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+    crossorigin="anonymous"></script>
+
+</body>
+<!-- MDB -->
+<!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.4.0/mdb.min.js"></script> -->
+
+</html>

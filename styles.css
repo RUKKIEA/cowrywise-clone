@@ -1,0 +1,533 @@
+body {
+ font-family: 'Rubik', sans-serif;
+}
+
+/* Nav bar styling */
+
+.nav-i {
+ border-radius: 50%;
+ margin: 10px;
+ padding: 5px;
+ /* margin-left: 0;
+ padding-left: 0; */
+ border: 1px solid black;
+}
+
+.nice {
+ margin-left: 50px;
+}
+
+.nav-login-item {
+ list-style-type: none;
+ color: blue;
+ margin-right: 30px;
+ padding-top: 5px;
+}
+
+.nav-item .a-nav-link,
+.drop-span {
+ font-weight: bold;
+}
+
+.navbar-nav>li>.dropdown-menu {
+ /* padding-left: 30px;
+ padding-right: 30px; */
+ width: 400px;
+}
+
+/* main section 1 testimonial */
+.testimonial-section {
+ margin-bottom: 500px;
+}
+
+.test-card {
+ position: relative;
+}
+
+.testimonial-backdrop {
+ position: absolute;
+ z-index: -2;
+ height: 900px;
+ width: 350px;
+ background-color: cornflowerblue;
+}
+
+.testimonial-img {
+ position: absolute;
+ margin-left: 50px;
+ margin-top: 50px;
+}
+
+.testimonial {
+ position: absolute;
+ top: 620px;
+ right: 30px;
+ background-color: whitesmoke;
+ max-width: 300px;
+ height: auto;
+
+}
+
+.testimonial-body {
+ display: block;
+ padding: 20px 20px 10px 20px;
+}
+
+.testimonial-text {
+ color: gray;
+}
+
+.testimonial-body .alias {
+ float: right;
+ text-decoration: none;
+}
+
+.name {
+ color: navy;
+}
+
+/* text-part */
+
+
+.testi-header {
+ font-weight: bold;
+ font-size: 70px;
+ color: navy;
+ margin-top: 200px;
+}
+
+.testi-p {
+ color: gray;
+ font-size: 19px;
+}
+
+/* section 1 ends */
+
+/* section 2 begins */
+
+.section2 {
+ padding-bottom: 200px;
+}
+
+.sec2-header2 {
+ font-weight: bold;
+ font-size: 50px;
+ color: navy;
+}
+
+.sec2-p {
+ font-size: 17px;
+ color: gray;
+}
+
+.sec2-card-head {
+ font-size: 30px;
+ font-weight: 600px;
+ color: navy;
+}
+
+.sec2-card-p1 {
+ font-size: 15px;
+ color: gray;
+ font-weight: 500;
+}
+
+.sec2-card-p2 {
+ font-size: 15px;
+ color: gray;
+
+}
+
+.sec2-card-a {
+ font-size: 12px;
+ font-weight: 500;
+ text-decoration: none;
+}
+
+.sec2-card {
+ height: 650px;
+}
+
+.sec2-card-up {
+ height: 650px;
+ margin-top: -400px;
+}
+.sec2-card-down{
+ height: 650px;
+ margin-top: 100px;
+}
+
+.sec2-stash-head {
+ font-size: 30px;
+ font-weight: 600px;
+ color: white;
+}
+
+.sec2-stash-p1 {
+ font-size: 15px;
+ color: white;
+ font-weight: 500;
+}
+
+.sec2-stash-p2 {
+ font-size: 15px;
+ color: lightgray;
+
+}
+
+.sec2-stash-a {
+ font-size: 12px;
+ font-weight: 500;
+ color: white;
+ text-decoration: none;
+}
+
+/* section 2 img transition */
+
+
+.card-img-container {
+ position: relative;
+ width: 100%;
+}
+
+.card-overlay-img {
+ position: absolute;
+ bottom: 0;
+ left: 0;
+ right: 0;
+ overflow: hidden;
+ width: 100%;
+ height: 0;
+ transition: .5s ease;
+}
+
+.card-img-container:hover .card-overlay-img {
+ height: 100%;
+}
+
+.card-img-container:hover .card-img-top {
+ opacity: 0;
+}
+
+.sec2-img-overlay {
+ position: absolute;
+ overflow: hidden;
+ top: 60%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ -ms-transform: translate(-50%, -50%);
+}
+
+.card-img-top {
+ border-radius: 0px 0px 0px 20px;
+ width: 100%;
+ display: block;
+ height: auto;
+}
+
+.sec2-2nd-img {
+ width: 300px;
+ height: 420px;
+}
+
+
+/* end of section2 img transition */
+
+
+/* section 2 ends */
+
+/* section 3 styling begins */
+.section3 {
+ height: 1000px;
+ background-color: whitesmoke;
+}
+
+.sec3-header {
+ font-size: 30px;
+ font-weight: 700;
+ color: navy;
+
+}
+
+.sec3-word {
+ color: navy;
+}
+
+.sec3-p {
+ color: gray;
+}
+
+.numero {
+ font-size: 30px;
+ font-weight: bold;
+ color: #0d6efd;
+ display: block;
+ margin-bottom: 15px;
+ margin-top: -10px;
+}
+
+/* section 4 styling begins */
+
+.section4 {
+ height: 900px;
+ background-color: #0d6efd;
+ color: white;
+
+}
+
+.sec4-header {
+ font-size: 50px;
+ font-weight: 600;
+}
+
+.sec4-main-p {
+ font-size: 18px;
+}
+
+.icon {
+ font-size: 16px;
+ font-weight: 700;
+}
+
+.sec4-p {
+ font-size: 15px;
+}
+
+/* section 4 styling ends */
+
+
+/* section 5 styling begins */
+
+.sec5-par-main {
+ font-size: 16px;
+ font-weight: 700;
+ color: rgb(3, 3, 85);
+}
+
+
+.content {
+ overflow: hidden;
+ font-size: 50px;
+ line-height: 100px;
+ color: gray;
+}
+
+.content__container {
+ font-weight: 900;
+ overflow: hidden;
+ height: 100px;
+}
+
+.content__container__text {
+ display: inline;
+ float: left;
+ margin: 0;
+ padding: 0;
+ list-style-type: none;
+ animation-name: change;
+ animation-duration: 11s;
+ animation-iteration-count: infinite;
+}
+
+.animate2 {
+ padding-left: 40px;
+ color: blue;
+}
+
+@keyframes opacity {
+
+ 0%,
+ 100% {
+  opacity: 0;
+ }
+
+ 50% {
+  opacity: 1;
+ }
+}
+
+@keyframes change {
+
+ 0%,
+ 15%,
+ 100% {
+  transform: translate3d(0, 0, 0);
+ }
+
+ 30%,
+ 40% {
+  transform: translate3d(0, -25%, 0);
+ }
+
+ 50%,
+ 70% {
+  transform: translate3d(0, -50%, 0);
+ }
+
+ 75%,
+ 95% {
+  transform: translate3d(0, -75%, 0);
+ }
+}
+
+/* section 5 styling ends */
+
+
+/* footer section styling */
+
+/* download cards */
+
+.card-subtitle {
+ display: inline;
+}
+
+.rating {
+ color: orange;
+}
+
+.rate-number {
+ font-size: 40px;
+ font-weight: bold;
+ color: navy;
+}
+
+.available {
+ color: navy;
+}
+
+.store {
+ margin-left: 100px;
+ padding: 0;
+}
+
+
+/* <!-- blue footer part --> */
+.blue-footer-header {
+ font-weight: 700;
+ font-size: 34px;
+ color: white;
+}
+
+
+.email-card {
+ background-color: #0d6efd;
+ height: 250px;
+ border-radius: 10px;
+ padding: 20px;
+
+}
+
+.email-button {
+ position: relative;
+}
+
+.button-pos {
+ position: relative;
+ left: 280px;
+ bottom: 43px;
+}
+
+/* footer menu */
+.footer-menu-header {
+ color: navy;
+ font-size: 24px;
+ font-weight: 500;
+}
+
+.list {
+ list-style-type: none;
+ padding-bottom: 15px;
+ font-size: 15px;
+
+}
+
+.list a {
+ color: gray;
+ text-decoration: none;
+}
+
+.list>a :hover {
+ color: #0d6efd;
+
+}
+
+
+.address {
+ font-size: 15px;
+}
+
+.sec-text {
+ display: inline-block;
+}
+
+.sec {
+ font-size: 15px;
+ color: navy;
+ font-weight: bold;
+}
+
+.sec-img {
+ max-width: 15%;
+ margin-bottom: 20px;
+ margin-right: 10px;
+}
+
+.sec-part {
+ padding: 10px;
+ border: 1px solid black;
+ border-radius: 3px;
+}
+
+.story,
+.user-review {
+ font-size: 12px;
+ color: darkgray;
+}
+
+
+hr {
+ color: lightgray;
+}
+
+.socials {
+ color: gray;
+ margin: 5px;
+}
+
+.socials :hover {
+ color: #0d6efd;
+}
+
+
+
+.download {
+ font-size: 12px;
+ font-weight: bold;
+}
+
+
+
+
+
+/* button styling trial */
+/* .store-icon {
+ position: absolute;
+ top: 50%;
+ left: 10%;
+}
+
+.store-button {
+ position: relative;
+}
+
+.store-text {
+ position: absolute;
+} */
+
+/* button styling trial */
+
+
+
+
+
+/* color blue #0d6efd */
